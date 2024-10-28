@@ -1,0 +1,48 @@
+#grille1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30px);
+    border: solid black 1px;
+    border-collapse: collapse;
+    height: 100%;
+    max-width: 800px;
+    margin: 25px auto ;
+}
+.cellule{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: palevioletred;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+div:nth-child(even){
+    background-color: aquamarine;
+}
+
+#grille2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: repeat(3, 30px);
+    border: solid black 1px;
+    border-collapse: collapse;
+    height: 100%;
+    max-width: 800px;
+    margin: 25px auto ;
+}
+
+#grille3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    border: solid black 1px;
+    border-collapse: collapse;
+    height: 150px;
+    max-width: 800px;
+    margin: 25px auto ;
+}
+
+.lien{
+    
+}
