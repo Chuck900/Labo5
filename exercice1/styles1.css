@@ -1,12 +1,14 @@
 .puzzle{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 1frs);
     grid-template-rows: repeat(3, 1fr);
+    max-width: 450px;
+    margin: 25px auto ;
     grid-template-areas: 
             "f h e"
             "i c a"
             "b d g";
-
+    
 }
 
 #piece1{
@@ -19,7 +21,7 @@
 
 #piece3{
     grid-area: c;
-}
+}   
 
 #piece4{
     grid-area: d;
