@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 30px);
-    border: solid black 1px;
-    border-collapse: collapse;
     height: 100%;
     max-width: 800px;
     margin: 25px auto ;
@@ -24,8 +22,6 @@ div:nth-child(even){
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: repeat(3, 30px);
-    border: solid black 1px;
-    border-collapse: collapse;
     height: 100%;
     max-width: 800px;
     margin: 25px auto ;
@@ -35,8 +31,7 @@ div:nth-child(even){
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: 2fr 1fr 1fr;
-    border: solid black 1px;
-    border-collapse: collapse;
+    grid-gap: 3px;
     height: 150px;
     max-width: 800px;
     margin: 25px auto ;
