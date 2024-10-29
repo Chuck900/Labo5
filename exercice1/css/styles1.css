@@ -1,12 +1,11 @@
 .puzzle{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
             "f h e"
             "i c a"
             "b d g";
-
 }
 
 #piece1{
